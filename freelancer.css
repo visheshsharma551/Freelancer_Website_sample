@@ -1,5 +1,5 @@
 *{
-    border:1px solid black; 
+    /* border:1px solid black;  */
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -61,3 +61,42 @@ nav ul li{
 .btn-container{
     margin:20px 0;
 }
+.header button{
+    border:0;
+    outline:0;
+    display:inline-flex;
+    align-items:center;
+    margin-right:20px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+ .btn-dark{
+    background:#000;
+    color:#fff;
+    border-radius:40px;
+    padding:10px 10px 10px 30px;
+   
+    
+ }
+ .btn-dark img{
+    width:40px;
+    background:#fff;
+    border-radius:50%;
+    padding:10px;
+    margin-left:30px;
+ }
+
+ .btn-light{
+    background:transparent;
+    text-decoration:underline;
+ }
+ .btn-light img{
+    width:20px;
+    margin-left:10px;
+
+ }
+ .header p{
+    max-width:360px;
+    font-weight:500;
+ }
