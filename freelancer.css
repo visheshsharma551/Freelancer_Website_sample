@@ -18,11 +18,13 @@ nav {
     padding: 15px 10%;
     z-index: 10;
     Border-bottom: 1px solid black;
+    z-index:10;
 }
 
 nav .nav-logo {
 
-    width: 250px;
+    width: 220px;
+    cursor:pointer;
 
 
 
@@ -38,10 +40,12 @@ nav ul li {
 
 .nav-btn {
     border: none;
+    outline:0;
     background: #000;
     color: #fff;
     border-radius: 40px;
     padding: 15px 25px;
+    cursor:pointer;
 }
 
 .nav-btn img {
@@ -188,8 +192,8 @@ nav ul li {
     }
 
     nav ul {
-        display:flex;
-        justify-content:center;
+        display: flex;
+        justify-content: center;
         width: 100%;
         background: #000;
         position: absolute;
@@ -207,4 +211,76 @@ nav ul li {
         width: 30px;
 
     }
+
+    /* Header screen Responsive */
+    .header{
+      height:100vh;
+        padding:0;
+    }
+    
+    
+    
+
+    .User-image {
+        width: 100%;
+
+        position: relative;
+        left:2%;
+       
+        top:0;
+        margin-top:100px;
+       
+    }
+
+
+.header-Content {
+    width:100%;
+    position: absolute;
+    bottom:0;
+    padding:0 10%;
+    z-index:2;
+    padding-bottom: 40px;
+    background:linear-gradient(transparent, #fff);
+}
+.btn-container{
+    margin:5px 0;
+   
+   
+
+}
+.btn-light{
+        margin-top: 14px;
+
+        
+        
+}
+.btn-dark{
+    padding:7px 7px 7px 20px;
+    margin-bottom:10px;
+}
+.bt-dark img {
+    width:30px;
+    padding: 5px;
+    margin-left:15px;
+}
+.header button {
+    font-size:14px;
+    margin-right: 10px;
+
+}
+.header p {
+    
+    
+    font-size: 14px;
+    line-height: 20px;
+}
+.btn-light img {
+    width: 12px;
+    margin-left: 5px;
+}
+.header h1{
+    font-size:70px;
+    line-height:60px;
+    margin-bottom:20px;
+}
 }
